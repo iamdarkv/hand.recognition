@@ -123,7 +123,7 @@ new controls
     minTrackingConfidence: 0.5
 })
     .add([
-    new controls.StaticText({ title: 'MediaPipe Hands' }),
+    new controls.StaticText({ title: 'Hands Recognition' }),
     fpsControl,
     new controls.Toggle({ title: 'Selfie Mode', field: 'selfieMode' }),
     new controls.SourcePicker({
